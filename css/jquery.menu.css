@@ -1,0 +1,56 @@
+body
+{
+ background: #187008;
+}
+
+.jmenu
+{
+ overflow: hidden;
+ float: left;
+}
+
+.jmenu ul li
+{ 
+ padding:0px;
+ margin: 0px;
+ list-style: none;
+ width: 100%;
+ text-align: center;   
+}
+
+#jm-message
+{
+ color:#fff;
+ height: 150px;
+ padding: 0px;
+ font-size:22px;
+ color:#fff;
+ text-align: center;
+}
+
+#jm-top
+{
+ width: 100%;
+ height: 30px;   
+}
+
+#jm-frame {
+ padding: 0;
+}
+
+#jm-frame ul {
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ display: none;
+}
+
+#jm-frame li ul {
+width: 50px;
+display: none;
+padding: 6px 0px 6px 0px;
+position: absolute;
+ }
+
+
+

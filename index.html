@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src='js/jquery.menu.js'></script>
+  <script type="text/javascript" src='js/rss.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.menu.css">
+</script>
+
+</head>
+<body>
+
+<div id="fb-root"></div>
+
+  <div class="jmenu">
+  	<div id="jm-top">
+  	<canvas id="border-superior"></canvas>
+  	</div>
+  	
+  	<div id="jm-frame">
+      <ul id="rss">
+        <li>
+            <ul>
+              <li><a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a></li>
+              <li><a href="https://twitter.com/magallo286" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-lang="es">Follow @magallo286</a></li>
+            </ul>
+            <img src="img/1.png" alt="twitter">
+        </li>  
+        <li>
+            <ul>
+              <li><div class="g-plus" data-action="share" data-annotation="bubble" data-height="15"></div></li>
+              <li><div class="g-plusone" data-size="small"></div></li>
+            </ul>
+            <img src="img/3.png" alt="facebook">
+        </li> 
+        <li>
+           <ul>
+            <li><div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"></div></li>
+            <li><div class="fb-send" data-href="http://example.com" data-font="arial"></div></li>
+           </ul>
+           <img src="img/2.png" alt="plus">
+        </li> 
+   	  </ul>
+ 	  </div>
+
+   	<div id="jm-message">
+      <img src="img/jesus42.png" alt="">
+   		Dios está aquí.
+   	</div>
+
+   	<div id="jm-lower">
+      <canvas id="border-inferior"></canvas>
+   	</div>
+ 	</div>
+
+    <script type="text/javascript">
+    	$('.jmenu').menu({ ancho: '50'
+		   });
+    </script>
+</body>
+</html>
