@@ -44,17 +44,14 @@
 
 		init : function () {      
 			 $(".jmenu").hover(  function () { $('#rss').show("slow");   },   function () {    $('#rss').hide("slow"); }); 
-			              
-			 var lis = document.getElementById("rss").getElementsByTagName("li");
 
-				for (var i=0; i<lis.length; i++) {
-
-                $(lis[i]).hover(
-                	function () { var li = $(this); 
-                	li.children('li ul').show("slow"); },   
-                	function () {   var li = $(this);
-                	 li.children('li ul').hide("slow"); });
-               }
+              $("#rss li").each(function(i){
+				  $(this).hover(
+	                function () { var li = $(this); 
+	                	li.children('li ul').show("slow"); },   
+	                function () {   var li = $(this);
+	                	 li.children('li ul').hide("slow"); });
+				 }); 
 			
 		},
 		fn_border_inferior: function(cwidth, cheight){
