@@ -1,5 +1,5 @@
 /*
- *  Project: Mi biblia
+ *  Project: Mi biblia - componente separador de libro
  *  Description: Es un proyecto donde desarrollamos componentes para enrequecer la palabra de Dios
  *  Author: Mauricio Gallo Ocampo
  *  License: 
@@ -35,7 +35,7 @@
 				var cwidth = $("#border-inferior").width();
 				var cheight = $("#border-inferior").height();        
 				
-				this.init(this.$contenedor);
+				this.init();
 				this.fn_border_inferior(cwidth, cheight);
 				this.fn_border_superior();
 		}
