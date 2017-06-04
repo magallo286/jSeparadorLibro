@@ -11,4 +11,3 @@ Atributos por defecto del plugin
 ancho: '50',
 colorFondo: '#ED0E0E',
 
-despues de mucho tiempo
