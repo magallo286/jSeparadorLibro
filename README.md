@@ -1,4 +1,4 @@
-jSeparadorLibro
+﻿jSeparadorLibro
 ===============
 
 Plugin desarrollado en jquery, css3, html5 y canvas para acompañar el efecto de pasar hojas en un libro.
@@ -10,3 +10,5 @@ Plugin desarrollado en jquery, css3, html5 y canvas para acompañar el efecto de
 Atributos por defecto del plugin
 ancho: '50',
 colorFondo: '#ED0E0E',
+
+despues de mucho tiempo
