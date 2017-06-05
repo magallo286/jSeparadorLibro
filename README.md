@@ -12,5 +12,5 @@ ancho: '50',
 colorFondo: '#ED0E0E',
 
 
-aaaa
+asdasdasd
 
